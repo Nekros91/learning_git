@@ -1,7 +1,7 @@
 function authenticate (login, passwoord) {
-	if (login === 'login' && password === 'password') {
+	if (login === 'login' ) {
 		return 'You were logged in';
 	} else {
-		return 'Login failed';
+		return 'Login is correct';
 	}
 }
